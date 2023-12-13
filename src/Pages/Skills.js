@@ -39,17 +39,20 @@ const Skills = () => {
     setShow3(!show3);
   }
   return (
-    <div className="skills" id="skills">
-      <div className="bg-black h-fit w-full flex justify-center items-center ">
-        <div className="w-7/12 mx-auto flex flex-col mb-20">
-          <div className="flex flex-col mb-16 justify-center items-center ">
-            <h1 className="text-3xl font-semibold text-[#f2f1f3] ">Skills </h1>
-            <h6 className="text-sm  font-semibold text-[#b8b5b5]">
-              My Technical Skills
-            </h6>
-          </div>
-          <div className="flex flex-wrap justify-center m-auto mb-[80px] ">
-            <div className="text-[#e8c768] text-xl qs:text-md sm:qs:text-md flex flex-col min-w-[260px] p-2 m-4 ">
+     <div
+      className="skills bg-black h-fit  flex justify-center items-center "
+      id="skills"
+    >
+      <div className=" mx-auto flex flex-col mb-20">
+        <div className="flex flex-col mb-16 justify-center items-center ">
+          <h1 className="text-3xl font-semibold text-[#f2f1f3] ">Skills </h1>
+          <h6 className="text-sm  font-semibold text-[#b8b5b5]">
+            My Technical Skills
+          </h6>
+        </div>
+        <div className=" flex qs:flex-col sm:flex-col lg:flex-row justify-center m-auto mb-[80px] ">
+          <div>
+            <div className="text-[#e8c768] text-xl qs:text-md sm:qs:text-md flex flex-col flex-wrap min-w-[260px] p-2 m-4 ">
               <div className="flex justify-evenly items-center border border-[f2f1f3]">
                 <div className="flex justify-center items-center gap-x-2">
                   <MdCode />
@@ -58,7 +61,9 @@ const Skills = () => {
                   </span>
                 </div>
                 <IoIosArrowDropdown
-                  className={`${active1 ? " text-white animate-pulse" : "rotate-180 "}  hover:scale-110 cursor-pointer`}
+                  className={`${
+                    active1 ? " text-white animate-pulse" : "rotate-180 "
+                  }  hover:scale-110 cursor-pointer`}
                   onClick={expand1}
                 />
               </div>
@@ -128,13 +133,15 @@ const Skills = () => {
             <div className="text-[#e8c768] text-xl flex flex-col  min-w-[260px] p-2 m-4 ">
               <div className="flex justify-evenly items-center  border border-[f2f1f3] ">
                 <div className="flex justify-center items-center mx-6 gap-x-2">
-                <BiCodeCurly />
+                  <BiCodeCurly />
                   <span className="xl:text-xl lg:text-xl md:text-xl qs:text-sm sm:text-sm text-[#f2f1f3]">
                     Libraries
                   </span>
                 </div>
                 <IoIosArrowDropdown
-                  className={`${active2 ? " text-white animate-pulse" : "rotate-180 "} hover:scale-110 cursor-pointer `}
+                  className={`${
+                    active2 ? " text-white animate-pulse" : "rotate-180 "
+                  } hover:scale-110 cursor-pointer `}
                   onClick={expand2}
                 />
               </div>
@@ -200,80 +207,82 @@ const Skills = () => {
                 )}
               </div>
             </div>
+          </div>
 
-            <div className="text-[#e8c768] text-xl flex flex-col  min-w-[260px] p-2 m-4  ">
-              <div className="flex justify-evenly items-center  border border-[f2f1f3]">
-                <div className="flex justify-center items-center mx-6 gap-x-2">
-                  <FiTool />
-                  <span className="xl:text-xl lg:text-xl md:text-xl qs:text-sm sm:text-sm text-[#f2f1f3]">
-                    Tools
-                  </span>
-                </div>
-                <IoIosArrowDropdown
-                  className={`${active3 ? " text-white animate-pulse" : "rotate-180 "}  hover:scale-110 cursor-pointer  `}
-                  onClick={expand3}
-                />
+          <div className="text-[#e8c768] text-xl flex flex-col  min-w-[260px] p-2 m-4  ">
+            <div className="flex justify-evenly items-center  border border-[f2f1f3]">
+              <div className="flex justify-center items-center mx-6 gap-x-2">
+                <FiTool />
+                <span className="xl:text-xl lg:text-xl md:text-xl qs:text-sm sm:text-sm text-[#f2f1f3]">
+                  Tools
+                </span>
               </div>
-              <div className={`mt-4 ${show3 ? "block" : "hidden"}`}>
-                {show3 && (
-                  <div className=" border border-[#e8c768] rounded-md">
-                    <div className="flex flex-col p-4 gap-y-2">
-                      <div className="flex justify-between items-center">
-                        <span>
-                          <FaGitAlt />
-                        </span>
-                        <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
-                          Git
-                        </h1>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                        <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
-                      </div>
+              <IoIosArrowDropdown
+                className={`${
+                  active3 ? " text-white animate-pulse" : "rotate-180 "
+                }  hover:scale-110 cursor-pointer  `}
+                onClick={expand3}
+              />
+            </div>
+            <div className={`mt-4 ${show3 ? "block" : "hidden"}`}>
+              {show3 && (
+                <div className=" border border-[#e8c768] rounded-md">
+                  <div className="flex flex-col p-4 gap-y-2">
+                    <div className="flex justify-between items-center">
+                      <span>
+                        <FaGitAlt />
+                      </span>
+                      <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
+                        Git
+                      </h1>
                     </div>
-                    <div className="flex flex-col p-4 gap-y-2">
-                      <div className="flex justify-between items-center">
-                        <span>
-                          <FaSquareGithub />
-                        </span>
-                        <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
-                          GitHub
-                        </h1>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                        <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col p-4 gap-y-2">
-                      <div className="flex justify-between items-center">
-                        <span>
-                          <SiPowerbi />
-                        </span>
-                        <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
-                          Microsoft Power BI
-                        </h1>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                        <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col p-4 gap-y-2">
-                      <div className="flex justify-between items-center">
-                        <span>
-                          <IoLogoVercel />
-                        </span>
-                        <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
-                          Vercel
-                        </h1>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-                        <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
-                      </div>
+                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                     </div>
                   </div>
-                )}
-              </div>
+                  <div className="flex flex-col p-4 gap-y-2">
+                    <div className="flex justify-between items-center">
+                      <span>
+                        <FaSquareGithub />
+                      </span>
+                      <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
+                        GitHub
+                      </h1>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col p-4 gap-y-2">
+                    <div className="flex justify-between items-center">
+                      <span>
+                        <SiPowerbi />
+                      </span>
+                      <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
+                        Microsoft Power BI
+                      </h1>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col p-4 gap-y-2">
+                    <div className="flex justify-between items-center">
+                      <span>
+                        <IoLogoVercel />
+                      </span>
+                      <h1 className="xl:text-lg lg:text-lg md:text-sm qs:text-sm sm:text-sm">
+                        Vercel
+                      </h1>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
