@@ -8,9 +8,11 @@ const Navbar = () => {
     setClick(false);
   };
   return (
-    <div className="relative w-full overflow-hidden flex justify-center items-center bg-black text-white">
-      <div className="flex fixed top-0 bg-black items-center sm:justify-center md:justify-between qs:min-w-8/12 w-9/12 md:w-7/12  h-[50px] ">
-        <div className="sm:hidden md:inline-block p-2">Amit</div>
+    <div className="relative w-screen  flex justify-center items-center bg-black text-white ">
+    <div className="flex justify-center bg-black w-full ">
+      
+      <div className="flex fixed top-0 bg-black  items-center sm:justify-center lg:justify-between qs:min-w-8/12 w-9/12 md:w-7/12  h-[50px] ">
+        <div className="hidden lg:inline-block p-2">Amit</div>
         <div className="flex gap-x-3 md:gap-x-4 justify-center items-center ">
           <div className="nav-item cursor-pointer hover:text-[#e8c768] ">
             <Link
@@ -70,10 +72,11 @@ const Navbar = () => {
               duration={500}
               onClick={closeMenu}
             >
-              <div>Contact Us</div>
+              <div>Contact</div>
             </Link>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
