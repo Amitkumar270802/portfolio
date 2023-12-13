@@ -9,7 +9,7 @@ import { Link as ScrollLink } from "react-scroll/modules";
 import { Link as RouterLink } from "react-router-dom";
 const Home = () => {
   return (
-    <div
+   <div
       className="home bg-black h-fit flex justify-center items-center "
       id="home"
     >
@@ -36,7 +36,7 @@ const Home = () => {
               >
                 <button className=" hover:scale-105 flex gap-x-1 justify-center items-center w-fit bg-[#e8c768] p-3 text text-sm rounded-md font-semibold text-black hover:bg-[#f2f1f3]">
                   Contact Me{" "}
-                  <PiNavigationArrowBold className="rotate-[130deg]" />
+                  <PiNavigationArrowBold className="rotate-[130deg] hidden sm:inline-block" />
                 </button>
               </ScrollLink>
 
