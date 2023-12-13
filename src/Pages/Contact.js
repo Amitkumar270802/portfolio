@@ -9,10 +9,10 @@ const Contact = () => {
    
   return (
     <div
-      className="contact bg-black h-fit w-full flex justify-center items-center "
+      className="contact bg-black h-fit  flex justify-center items-center "
       id="contact"
     >
-      <div className="w-7/12 mx-auto mb-20 ">
+      <div className=" mx-auto mb-20 ">
         <div className="flex flex-col justify-center items-center ">
           <h1 className="text-3xl font-semibold text-[#f2f1f3] ">Contact Me</h1>
           <h6 className="text-sm  font-semibold text-[#b8b5b5]">
@@ -20,7 +20,7 @@ const Contact = () => {
           </h6>
         </div>
 
-        <div className="flex qs:flex-col sm:flex-col md:flex-col lg:flex-row  xl:flex-row justify-center md:items-start xl:items-start mt-10 p-4 ">
+        <div className="flex qs:flex-col sm:flex-col  xl:flex-row justify-center md:items-start xl:items-start mt-10 p-4 ">
           <div className="flex flex-col sm:p-4">
             <div className="flex gap-x-4 m-4 min-w-[250px]  ">
               <div className=" flex justify-center items-center text-3xl text-[#e8c768] ">
