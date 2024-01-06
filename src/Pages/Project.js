@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Card from "../Component/Card";
 import { PiCaretCircleDoubleLeft } from "react-icons/pi";
 import { PiCaretCircleDoubleRightLight } from "react-icons/pi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Project = (props) => {
   let pro = props.data;
