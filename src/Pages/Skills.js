@@ -15,6 +15,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { BiCodeCurly } from "react-icons/bi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
   const [show1, setShow1] = useState(1);
