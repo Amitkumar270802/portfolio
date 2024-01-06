@@ -7,6 +7,9 @@ import { PiNavigationArrowBold } from "react-icons/pi";
 import a from "../Assets/Untitled design (1).png";
 import { Link as ScrollLink } from "react-scroll/modules";
 import { Link as RouterLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Home = () => {
   return (
    <div
