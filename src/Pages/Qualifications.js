@@ -1,6 +1,8 @@
 import React from "react";
 import { IoBookSharp } from "react-icons/io5";
 import { TbBriefcaseFilled } from "react-icons/tb";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Qualifications = () => {
   return (
