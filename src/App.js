@@ -9,7 +9,14 @@ import Skills from "./Pages/Skills";
 import Project from "./Pages/Project";
 import data from "./Assets/data";
 import { Route, Router, BrowserRouter, Routes } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  });
+
   return (
     <div className="App">
         <Navbar />
