@@ -39,18 +39,18 @@ const Skills = () => {
     setShow3(!show3);
   }
   return (
-     <div
+      <div
       className="skills bg-black h-fit  flex justify-center items-center "
       id="skills"
     >
-      <div className=" mx-auto flex flex-col mb-20">
+      <div className=" mx-auto flex flex-col mb-20 mt-5" data-aos="fade-up">
         <div className="flex flex-col mb-16 justify-center items-center ">
           <h1 className="text-3xl font-semibold text-[#f2f1f3] ">Skills </h1>
           <h6 className="text-sm  font-semibold text-[#b8b5b5]">
             My Technical Skills
           </h6>
         </div>
-        <div className=" flex qs:flex-col sm:flex-col lg:flex-row justify-center m-auto mb-[80px] ">
+        <div className=" flex qs:flex-col sm:flex-col lg:flex-row justify-center m-auto mb-[80px] " data-aos="fade-up">
           <div>
             <div className="text-[#e8c768] text-xl qs:text-md sm:qs:text-md flex flex-col flex-wrap min-w-[260px] p-2 m-4 ">
               <div className="flex justify-evenly items-center border border-[f2f1f3]">
