@@ -13,7 +13,7 @@ const Home = () => {
       className="home bg-black h-fit flex justify-center items-center "
       id="home"
     >
-      <div className="w-7/12 flex flex-col  ">
+      <div className="w-7/12 flex flex-col  " data-aos="fade-up">
         <div className="mt-40 p-4 flex justify-between items-center  sm:flex-col md:flex-col lg:flex-row xl:flex-row text-2xl gap-y-4 text-[#c5aa5b] qs:flex-col ">
           <div className="flex flex-col text-left  justify-between ">
             <h1 className="my-2 qs:text-3xl  sm:text-3xl  md:text-3xl lg:text-5xl xl:text-5xl  font-semibold text-[#f2f1f3]">
@@ -72,7 +72,7 @@ const Home = () => {
               </RouterLink>
             </div>
           </div>
-          <div className="">
+          <div className="" data-aos="zoom-in">
             <img
               src={a}
               className="max-h-[300px] w-[250px] flex justify-center items-start "
