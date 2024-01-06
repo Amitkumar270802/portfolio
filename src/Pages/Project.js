@@ -17,7 +17,7 @@ const Project = (props) => {
   }
   return (
     <div className="project bg-black h-fit flex justify-center items-center  w-full text-white overflow-hidden "  id="project">
-      <div className="mb-20">
+      <div className="mb-20" data-aos="fade-up">
         <div className="flex flex-col mb-20 justify-center items-center">
           <h1 className="text-3xl  font-semibold text-[#f2f1f3] ">Projects</h1>
           <h6 className="text-sm  font-semibold text-[#b8b5b5]">  Most recent work</h6>
@@ -26,7 +26,7 @@ const Project = (props) => {
           <div><button className=" hover:scale-105 xl:text-4xl text-2xl text-[#e8c768] hover:text-white " onClick={left}> 
           <PiCaretCircleDoubleLeft />
           </button></div>
-          <div className="p-4 m-2 flex justify-center items-center xl:h-[300px] qs:w-[600px] sm:w-[720px] md:w-[950px] lg:w-[1100px] xl:w-[1200px]"><Card data={pro[index]} /></div>
+          <div className="p-4 m-2 flex justify-center items-center xl:h-[300px] qs:w-[600px] sm:w-[720px] md:w-[950px] lg:w-[1100px] xl:w-[1200px]" data-aos="fade-up"><Card data={pro[index]} /></div>
           <div> <button className=" hover:scale-105 xl:text-4xl  text-2xl text-[#e8c768] hover:text-white " onClick={right}>
           <PiCaretCircleDoubleRightLight /></button></div>
         </div>
