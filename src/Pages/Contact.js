@@ -4,6 +4,8 @@ import { TfiEmail } from "react-icons/tfi";
 import { FaSquarePhone } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { LuSend } from "react-icons/lu";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
    
