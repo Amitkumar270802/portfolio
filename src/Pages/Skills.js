@@ -22,7 +22,7 @@ const Skills = () => {
   const [show1, setShow1] = useState(1);
   const [show2, setShow2] = useState(0);
   const [show3, setShow3] = useState(0);
- 
+
   const [active1, setActive1] = useState(0);
   const [active2, setActive2] = useState(1);
   const [active3, setActive3] = useState(1);
@@ -41,18 +41,18 @@ const Skills = () => {
     setShow3(!show3);
   }
   return (
-      <div
+    <div
       className="skills bg-black h-fit  flex justify-center items-center "
       id="skills"
     >
-      <div className=" mx-auto flex flex-col mb-20 mt-5" data-aos="fade-up">
+      <div className=" mx-auto flex flex-col mb-20">
         <div className="flex flex-col mb-16 justify-center items-center ">
           <h1 className="text-3xl font-semibold text-[#f2f1f3] ">Skills </h1>
           <h6 className="text-sm  font-semibold text-[#b8b5b5]">
             My Technical Skills
           </h6>
         </div>
-        <div className=" flex qs:flex-col sm:flex-col lg:flex-row justify-center m-auto mb-[80px] " data-aos="fade-up">
+        <div className=" flex qs:flex-col sm:flex-col lg:flex-row justify-center m-auto mb-[80px] ">
           <div>
             <div className="text-[#e8c768] text-xl qs:text-md sm:qs:text-md flex flex-col flex-wrap min-w-[260px] p-2 m-4 ">
               <div className="flex justify-evenly items-center border border-[f2f1f3]">
@@ -81,7 +81,7 @@ const Skills = () => {
                           CPP
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full rounded-full h-1 bg-gray-700">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -95,7 +95,7 @@ const Skills = () => {
                           Javascript
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full bg-gray-700 rounded-full h-1 ">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -109,7 +109,7 @@ const Skills = () => {
                           HTML
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full bg-gray-700 rounded-full h-1 ">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -123,7 +123,7 @@ const Skills = () => {
                           SQL
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full bg-gray-700 rounded-full h-1 ">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -159,7 +159,7 @@ const Skills = () => {
                           React
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full bg-gray-700 rounded-full h-1 ">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -173,7 +173,7 @@ const Skills = () => {
                           Tailwind CSS
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full bg-gray-700 rounded-full h-1 ">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -187,7 +187,7 @@ const Skills = () => {
                           Node.js
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full bg-gray-700 rounded-full h-1 ">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -201,7 +201,7 @@ const Skills = () => {
                           MongoDB
                         </h1>
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                      <div className="w-full bg-gray-700 rounded-full h-1 ">
                         <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                       </div>
                     </div>
@@ -238,7 +238,7 @@ const Skills = () => {
                         Git
                       </h1>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                    <div className="w-full bg-gray-700 rounded-full h-1 ">
                       <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                     </div>
                   </div>
@@ -251,7 +251,7 @@ const Skills = () => {
                         GitHub
                       </h1>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                    <div className="w-full bg-gray-700 rounded-full h-1 ">
                       <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                     </div>
                   </div>
@@ -265,7 +265,7 @@ const Skills = () => {
                         Microsoft Power BI
                       </h1>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                    <div className="w-full bg-gray-700 rounded-full h-1 ">
                       <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                     </div>
                   </div>
@@ -279,7 +279,7 @@ const Skills = () => {
                         Vercel
                       </h1>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+                    <div className="w-full bg-gray-700 rounded-full h-1 ">
                       <div className="bg-[#f2f1f3] h-1 rounded-full w-3/5 "></div>
                     </div>
                   </div>
