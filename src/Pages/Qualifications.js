@@ -5,7 +5,7 @@ import { TbBriefcaseFilled } from "react-icons/tb";
 const Qualifications = () => {
   return (
    <div className="qualifications  bg-black h-fit flex justify-center items-center"  id="qualifications" >
-      <div className=" flex flex-col mb-40 justify-center items-center">
+      <div className=" flex flex-col mb-40 justify-center items-center" data-aos="fade-up">
         <div className="flex flex-col mb-20 justify-center items-center ">
           <h1 className="text-3xl font-semibold text-[#f2f1f3] ">
             Qualifications
@@ -15,7 +15,7 @@ const Qualifications = () => {
           </h6>
         </div>
 
-        <div className="flex justify-center items-center sm:ml-16 mt-10 qs:flex-col sm:flex-col lg:flex-row md:gap-8 lg:ml-[200px]">
+        <div className="flex justify-center items-center sm:ml-16 mt-10 qs:flex-col sm:flex-col lg:flex-row md:gap-8 lg:ml-[200px]" data-aos="fade-up">
             {/* Education  */}
           <div className="relative min-h-[350px]  sm:max-w-[300px] lg:min-w-[400px] sm:mb-10 md:mb-0  qs:ml-20">
 
