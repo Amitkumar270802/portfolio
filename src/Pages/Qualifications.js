@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Qualifications = () => {
   return (
-  <div className="qualifications  bg-black h-fit flex justify-center items-center"  id="qualifications" >
+    <div className="qualifications  bg-black h-fit flex justify-center items-center"  id="qualifications" >
       <div className=" flex flex-col mb-40 justify-center items-center" data-aos="fade-up">
         <div className="flex flex-col mb-20 justify-center items-center ">
           <h1 className="text-3xl font-semibold text-[#f2f1f3] ">
@@ -105,7 +105,7 @@ const Qualifications = () => {
                 <h3 className="flex items-center mb-1 qs:text-md  sm:text-md  md:text-md lg:text-xl  font-semibold text-white">
                   Web Development Intern
                 </h3>
-                <p className="mb-2 text-base qs:text-sm  sm:text-sm  md:text-md lg:text-md xl:text-md font-normal text-gray-300 ">
+                <p className="mb-2 text-base qs:text-sm  sm:text-sm  md:text-md lg:text-md xl:text-md font-normal text-gray-500 dark:text-gray-400">
                   Let's Grow More
                 </p>
                 <time className="block  text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
