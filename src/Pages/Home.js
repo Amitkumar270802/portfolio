@@ -7,17 +7,16 @@ import { PiNavigationArrowBold } from "react-icons/pi";
 import a from "../Assets/Untitled design (1).png";
 import { Link as ScrollLink } from "react-scroll/modules";
 import { Link as RouterLink } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const Home = () => {
   return (
-   <div
-      className="home bg-black h-fit flex justify-center items-center "
+    <div 
+      className="home bg-black h-fit flex justify-center items-center qs:mt-[-80px] md:mt-[-80px] "
       id="home"
     >
-      <div className="w-7/12 flex flex-col  " data-aos="fade-up">
-        <div className="mt-40 p-4 flex justify-between items-center  sm:flex-col md:flex-col lg:flex-row xl:flex-row text-2xl gap-y-4 text-[#c5aa5b] qs:flex-col ">
+      <div className="w-7/12 flex flex-col" data-aos="fade-up">
+        <div className="lg:pt-72 sm:pt-32 mb-12 flex justify-between items-center  sm:flex-col md:flex-row text-2xl gap-y-4 text-[#c5aa5b] ">
           <div className="flex flex-col text-left  justify-between ">
             <h1 className="my-2 qs:text-3xl  sm:text-3xl  md:text-3xl lg:text-5xl xl:text-5xl  font-semibold text-[#f2f1f3]">
               Hi, I'm <span className="text-[#c5aa5b]">Amit</span>
@@ -37,9 +36,9 @@ const Home = () => {
                 offset={-100}
                 duration={1000}
               >
-                <button className=" hover:scale-105 flex gap-x-1 justify-center items-center w-fit bg-[#e8c768] p-3 text text-sm rounded-md font-semibold text-black hover:bg-[#f2f1f3]">
+                <button className=" sm:text-[10px] hover:scale-105 flex gap-x-1 justify-center items-center w-fit bg-[#e8c768] p-3 text text-sm rounded-md font-semibold text-black hover:bg-[#f2f1f3]">
                   Contact Me{" "}
-                  <PiNavigationArrowBold className="rotate-[130deg] hidden sm:inline-block" />
+                  <PiNavigationArrowBold className="rotate-[130deg] sm:inline-block" />
                 </button>
               </ScrollLink>
 
@@ -47,7 +46,7 @@ const Home = () => {
                 to="https://drive.google.com/file/d/1-8WM3xJQeJaFhnE4C_v2rFCtSUdExI8Y/view?usp=sharing"
                 target="_blank"
               >
-                <button className="hover:scale-105 w-fit flex justify-center items-center gap-x-4 bg-[#e8c768] p-3 text text-sm rounded-md font-semibold text-black hover:bg-[#f2f1f3]">
+                <button className="sm:text-[10px] hover:scale-105 w-fit flex justify-center items-center gap-x-4 bg-[#e8c768] p-3 text text-sm rounded-md font-semibold text-black hover:bg-[#f2f1f3]">
                   Resume{" "}
                   <MdOutlineDocumentScanner />
                 </button>
@@ -78,7 +77,7 @@ const Home = () => {
           <div className="" data-aos="zoom-in">
             <img
               src={a}
-              className="max-h-[300px] w-[250px] flex justify-center items-start "
+              className="lg:h-[300px] lg:w-[250px] h-[240px] w-[200px] flex justify-center items-start "
             />
           </div>
         </div>
