@@ -4,17 +4,15 @@ import { TfiEmail } from "react-icons/tfi";
 import { FaSquarePhone } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { LuSend } from "react-icons/lu";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Contact = () => {
    
   return (
-    <div
-      className="contact bg-black h-fit  flex justify-center items-center "
+    <div 
+      className="contact bg-black h-fit flex justify-center items-center  "
       id="contact"
     >
-      <div className=" mx-auto mb-20 " data-aos="fade-up">
+      <div className="mb-20 pt-10" data-aos="fade-up">
         <div className="flex flex-col justify-center items-center ">
           <h1 className="text-3xl font-semibold text-[#f2f1f3] ">Contact Me</h1>
           <h6 className="text-sm  font-semibold text-[#b8b5b5]">
@@ -22,7 +20,7 @@ const Contact = () => {
           </h6>
         </div>
 
-        <div className="flex qs:flex-col sm:flex-col  xl:flex-row justify-center md:items-start xl:items-start mt-10 p-4 " data-aos="fade-up">
+        <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center md:items-start xl:items-start mt-10  " data-aos="fade-up" >
           <div className="flex flex-col sm:p-4">
             <div className="flex gap-x-4 m-4 min-w-[250px]  ">
               <div className=" flex justify-center items-center text-3xl text-[#e8c768] ">
@@ -78,7 +76,7 @@ const Contact = () => {
           </div>
 
           {/* form  */}
-          <div className="flex flex-col text-left gap-y-4 sm:p-10 ">
+          <div className="flex flex-col text-left gap-y-4 sm:p-10 " >
             <div className="flex qs:flex-col sm:flex-col md:flex-row xl:flex-row lg:flex-row gap-x-4">
               <div className="flex flex-col text-white bg-black border-2 border-[#e8c768]  rounded-lg p-3  ">
                 <h1 className="text-sm gap-x-3">Name</h1>
@@ -98,7 +96,7 @@ const Contact = () => {
               <h1 className="text-sm gap-x-3">Message</h1>
               <textarea className="required caret-[#e8c768] font-semibold  capitalize min-h-[150px] border border-transparent  bg-black outline-none"></textarea>
             </div>
-            <button className=" hover:scale-105 flex justify-center items-center gap-x-2 w-fit bg-[#e8c768] p-3 text text-xs  rounded-md font-semibold hover:bg-[#f2f1f3] " >
+            <button className="sm:text-[10px] hover:scale-105 flex justify-center items-center gap-x-2 w-fit bg-[#e8c768] p-3 text text-xs  rounded-md font-semibold hover:bg-[#f2f1f3] " >
               Send Message
               <LuSend />
             </button>
