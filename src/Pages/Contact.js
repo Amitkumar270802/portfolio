@@ -12,7 +12,7 @@ const Contact = () => {
       className="contact bg-black h-fit flex justify-center items-center  "
       id="contact"
     >
-      <div className="mb-20 pt-10" data-aos="fade-up">
+      <div className="mb-20 mt-10 pt-10" data-aos="fade-up">
         <div className="flex flex-col justify-center items-center ">
           <h1 className="text-3xl font-semibold text-[#f2f1f3] ">Contact Me</h1>
           <h6 className="text-sm  font-semibold text-[#b8b5b5]">
