@@ -18,7 +18,7 @@ const Project = (props) => {
     else setIndex(index + 1);
   }
   return (
-    <div className="project bg-black h-fit flex justify-center items-center  w-full text-white overflow-hidden mb-10"  id="project" >
+    <div className="project bg-black h-fit flex justify-center items-center  w-full text-white overflow-hidden "  id="project" >
       <div className="mb-20" data-aos="fade-up">
         <div className="flex flex-col mb-20 justify-center items-center">
           <h1 className="text-3xl  font-semibold text-[#f2f1f3] ">Projects</h1>
