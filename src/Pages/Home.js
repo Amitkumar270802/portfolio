@@ -16,7 +16,7 @@ const Home = () => {
       id="home"
     >
       <div className="w-7/12 flex flex-col" data-aos="fade-up">
-        <div className="lg:pt-72 sm:pt-32 mb-12 flex justify-between items-center  sm:flex-col md:flex-row text-2xl gap-y-4 text-[#c5aa5b] ">
+        <div className="md:pt-64 sm:pt-32  mb-12 flex justify-between items-center sm:flex-col md:flex-row text-2xl gap-y-4 text-[#c5aa5b] ">
           <div className="flex flex-col text-left  justify-between ">
             <h1 className="my-2 qs:text-3xl  sm:text-3xl  md:text-3xl lg:text-5xl xl:text-5xl  font-semibold text-[#f2f1f3]">
               Hi, I'm <span className="text-[#c5aa5b]">Amit</span>
