@@ -18,12 +18,8 @@ const AboutMe = () => {
           </div>
           <div className="w-1/3 sm:w-full flex flex-col justify-start p-4">
             <span className="text-[#afb4b9]  ">
-              Hey there,👋 I'm Pranay a 20-year-old CSE undergrad who is
-              passionate about Software Development, UI/UX Design and Product
-              Management. Currently, I'm pursuing my career as a Full Stack Web
-              Developer 👨🏻‍💻 with 3+ years of professional and freelance
-              experience. I share my learnings through speaking engagements and
-              write-ups.
+              Hey there,👋 I'm Amit a 20-year-old CSE undergrad who is
+              passionate about Software Development.
             </span>
             <button className="w-fit bg-[#e8c768] p-3 mt-2 text-sm rounded-md font-semibold hover:bg-[#f2f1f3]">
               Resume
